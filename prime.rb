@@ -5,7 +5,6 @@ def prime? (num)
     false
   elsif (2..num/2).none? { |i| num % i == 0}
     true
-  else 
+  else
     false
 end
-
